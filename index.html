@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meshack Magara - Portfolio</title>
+    <link rel="stylesheet" href="./portfolio.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="header-content">
+          <div class="logo">MESH Developer</div>
+
+          <nav class="nav-desktop">
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#education" class="nav-link">Education</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
+          </nav>
+
+          <div class="social-links">
+            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-link"><i class="fas fa-envelope"></i></a>
+          </div>
+
+          <button class="mobile-menu-btn">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Navigation -->
+    <nav class="nav-mobile">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#education" class="nav-link">Education</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <div class="hero-text">
+              <h1 class="hero-title">
+                Hi👋, I'm <span class="text-primary">MESH Developer</span>
+              </h1>
+              <p class="hero-description">
+                A passionate full-stack developer crafting innovative solutions
+                with modern technologies. I love turning complex problems into
+                simple, beautiful, and intuitive designs.
+              </p>
+              <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <button class="btn btn-outline" onclick="downloadCV()">
+                  <i class="fas fa-download"></i>
+                  Download CV
+                </button>
+              </div>
+            </div>
+
+            <div class="hero-image">
+              <div class="image-container">
+                <img
+                  src="mypic.jpg"
+                  alt="mesh Developer"
+                  title="mesh Developer"
+                  class="profile-image"
+                />
+                <div class="scroll-indicator">
+                  <i class="fas fa-arrow-down"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="about">
+        <div class="container">
+          <div class="section-content">
+            <h2 class="section-title">About Me</h2>
+
+            <div class="about-grid">
+              <div class="about-text">
+                <h3>My Journey</h3>
+                <p>
+                  I am an enthusiast student wanting to learn software
+                  development and gain experince in building<br />
+                  applications that solve the real world's problems.<br />
+                  I began gaining the interest in software when i was at the age
+                  of 18 in school.<br />
+                  This led to me to pursue Computer science at Egerton
+                  University so as to gain hands on experince <br />
+                  with the software fundamentals<br />
+                  and coming up with solutions to solve real world problems
+                </p>
+                <p>
+                  I Believe in writing clean, maintainable code and staying
+                  up-to-date with the lates technologies.<br />
+                  When i dont code i watch tutorial on tiktok and instagram
+                  about books and web developments to <br />
+                  divesify my skills and knowledge.
+                </p>
+              </div>
+
+              <div class="about-details">
+                <div class="detail-section">
+                  <h4>What drives me</h4>
+                  <ul class="detail-list">
+                    <li>
+                      Problems solving through elegant and relevant code
+                      solutions
+                    </li>
+                    <li>Building user friendly applications with great UI</li>
+                    <li>
+                      Continuous learning through practise and eager to engage
+                      in proffesional fields
+                    </li>
+                    <li>
+                      Engaging with my peer learners and coming up with
+                      solutions
+                    </li>
+                    <li>
+                      The ability to start and keep up wiht what at some point
+                      in my life i saw as a useless course
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="detail-section">
+                  <h4>Core Values</h4>
+                  <div class="values-tags">
+                    <span class="value-tag">Quality</span>
+                    <span class="value-tag">Innovation</span>
+                    <span class="value-tag">Collaboration</span>
+                    <span class="value-tag">Integrity</span>
+                    <span class="value-tag">Growth</span>
+                    <span class="value-tag">passion</span>
+                    <span class="value-tag">simplicity</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="skills">
+        <div class="container">
+          <div class="section-content">
+            <h2 class="section-title">Technical Skills</h2>
+
+            <div class="skills-grid">
+              <div class="programming-languages">
+                <h3>Programming Languages</h3>
+                <div class="skill-items">
+                  <div class="skill-item">
+                    <div class="skill-header">
+                      <span>JavaScript</span>
+                      <span>95%</span>
+                    </div>
+                    <div class="progress-bar">
+                      <div class="progress-fill" style="width: 95%"></div>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <div class="skill-header">
+                      <span></span>Javascript
+                      <span>1%</span>
+                    </div>
+                    <div class="progress-bar">
+                      <div class="progress-fill" style="width: 90%"></div>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <div class="skill-header">
+                      <span>Python</span>
+                      <span>20%</span>
+                    </div>
+                    <div class="progress-bar">
+                      <div class="progress-fill" style="width: 85%"></div>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <div class="skill-header">
+                      <span>HTML</span>
+                      <span>85%</span>
+                    </div>
+                    <div class="progress-bar">
+                      <div class="progress-fill" style="width: 80%"></div>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <div class="skill-header">
+                      <span>CSS</span>
+                      <span>85%</span>
+                    </div>
+                    <div class="progress-bar">
+                      <div class="progress-fill" style="width: 75%"></div>
+                    </div>
+                  </div>
+                  <div class="skill-item">
+                    <div class="skill-header">
+                      <span>SQL</span>
+                      <span>65%</span>
+                    </div>
+                    <div class="progress-bar">
+                      <div class="progress-fill" style="width: 65%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="technologies">
+                <h3>Technologies & Tools</h3>
+                <div class="tech-grid">
+                  <div class="tech-item">MY SQL</div>
+                  <div class="tech-item">git</div>
+                </div>
+
+                <div class="expertise">
+                  <h4>Areas of Expertise</h4>
+                  <div class="expertise-list">
+                    <div class="expertise-item">
+                      <i class="fas fa-circle"></i>
+                      <span>Basics in python</span>
+                    </div>
+                    <div class="expertise-item">
+                      <i class="fas fa-circle"></i>
+                      <span>Basics in SQL</span>
+                    </div>
+                    <div class="expertise-item">
+                      <i class="fas fa-circle"></i>
+                      <span>Efficient in HTML and CSS</span>
+                    </div>
+                    <div class="expertise-item">
+                      <i class="fas fa-circle"></i>
+                      <span>Good basics on c and c++</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Education Section -->
+      <section id="education" class="education">
+        <div class="container">
+          <div class="section-content">
+            <h2 class="section-title">Education & Qualifications</h2>
+
+            <div class="education-grid">
+              <div class="education-card">
+                <div class="card-header">
+                  <i class="fas fa-graduation-cap"></i>
+                  <div>
+                    <h4>Undegraduate of Science in Computer Science</h4>
+                    <p>Egeron  University</p>
+                    <span>2024-2028</span>
+                  </div>
+                </div>
+                <div class="card-content">
+                  <div class="gpa"><strong>GPA: </strong>3.8/4.0</div>
+                  <div class="coursework">
+                    <strong>Relevant Coursework:</strong>
+                    <div class="course-tags">
+                      <span class="course-tag">Advanced Algorithms</span>
+                      <span class="course-tag">Machine Learning</span>
+                      <span class="course-tag">Distributed Systems</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="education-card">
+                <div class="card-header">
+                  <i class="fas fa-graduation-cap"></i>
+                  <div>
+                    <h4>Bachelor of Science in Software Engineering</h4>
+                    <p>Power Learn Bootcamp, Berkeley</p>
+                    <span>2025-2026</span>
+                  </div>
+                </div>
+                <div class="card-content">
+                  <div class="gpa"><strong>GPA: </strong>3.7/4.0</div>
+                  <div class="coursework">
+                    <strong>Relevant Coursework:</strong>
+                    <div class="course-tags">
+                      <span class="course-tag">Data Structures</span>
+                      <span class="course-tag">Software Architecture</span>
+                      <span class="course-tag">Database Systems</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+           </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Interests Section -->
+      <section class="interests">
+        <div class="container">
+          <div class="section-content">
+            <h2 class="section-title">Professional Interests and Aspirations</h2>
+            <p class="section-description">
+              What drives my passion for technology and keeps me excited about
+              the future of software development.
+            </p>
+
+            <div class="interests-grid">
+              <div class="interest-card">
+                <div class="card-header">
+                  <div class="icon-container">
+                    <i class="fas fa-brain"></i>
+                  </div>
+                  <h4>Artificial Intelligence</h4>
+                </div>
+                <div class="card-content">
+                  <p>
+                    Exploring machine learning and AI applications to solve
+                    real-world problems and enhance user experiences.
+                  </p>
+                </div>
+              </div>
+
+              <div class="interest-card">
+                <div class="card-header">
+                  <div class="icon-container">
+                    <i class="fas fa-bolt"></i>
+                  </div>
+                  <h4>Performance Optimization</h4>
+                </div>
+                <div class="card-content">
+                  <p>
+                    Passionate about creating lightning-fast applications and
+                    optimizing code for maximum efficiency.
+                  </p>
+                </div>
+              </div>
+
+              <div class="interest-card">
+                <div class="card-header">
+                  <div class="icon-container">
+                    <i class="fas fa-users"></i>
+                  </div>
+                  <h4>Developer Community</h4>
+                </div>
+                <div class="card-content">
+                  <p>
+                    Active in open-source contributions, mentoring junior
+                    developers, and knowledge sharing.
+                  </p>
+                </div>
+              </div>
+
+              <div class="interest-card">
+                <div class="card-header">
+                  <div class="icon-container">
+                    <i class="fas fa-rocket"></i>
+                  </div>
+                  <h4>Emerging Technologies</h4>
+                </div>
+                <div class="card-content">
+                  <p>
+                    Always eager to learn and experiment with cutting-edge
+                    technologies and frameworks.
+                  </p>
+                </div>
+              </div>
+
+              <div class="interest-card">
+                <div class="card-header">
+                  <div class="icon-container">
+                    <i class="fas fa-code"></i>
+                  </div>
+                  <h4>Clean Architecture</h4>
+                </div>
+                <div class="card-content">
+                  <p>
+                    Advocate for maintainable, scalable code architecture and
+                    best development practices.
+                  </p>
+                </div>
+              </div>
+
+              <div class="interest-card">
+                <div class="card-header">
+                  <div class="icon-container">
+                    <i class="fas fa-globe"></i>
+                  </div>
+                  <h4>Web Standards</h4>
+                </div>
+                <div class="card-content">
+                  <p>
+                    Committed to accessibility, progressive web apps, and
+                    creating inclusive digital experiences.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="focus-areas">
+              <h3>Areas of Focus and wishinig to engage</h3>
+              <div class="focus-tags">
+                <span class="focus-tag">Open Source Contributing</span>
+                <span class="focus-tag">Tech Blogging</span>
+                <span class="focus-tag">Conference Speaking</span>
+                <span class="focus-tag">Code Reviews</span>
+                <span class="focus-tag">Team Leadership</span>
+                <span class="focus-tag">Product Strategy</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="projects">
+        <div class="container">
+          <div class="section-content">
+            <h2 class="section-title">Featured Projects that i want to come up with</h2>
+            <p class="section-description">
+              Here are some of the projects that i wish to develop to boost my skills and come up with a good problems solving skills
+            </p>
+
+            <div class="projects-grid">
+              <div class="project-card">
+                <div class="project-image">
+                  <img
+                    src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=300&fit=crop"
+                    alt="E-Commerce Platform"
+                  />
+                </div>
+                <div class="project-content">
+                  <div class="project-header">
+                    <h4>E-Commerce Platform</h4>
+                    <div class="project-links">
+                      <a href="#" class="project-link"
+                        ><i class="fab fa-github"></i
+                      ></a>
+                      <a href="#" class="project-link"
+                        ><i class="fas fa-external-link-alt"></i
+                      ></a>
+                    </div>
+                  </div>
+                  <p>
+                    A full-stack e-commerce solution built with React, Node.js,
+                    and PostgreSQL. Features include user authentication,
+                    payment processing, and admin dashboard.
+                  </p>
+                  <div class="tech-tags">
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">Node.js</span>
+                    <span class="tech-tag">PostgreSQL</span>
+                    <span class="tech-tag">Stripe</span>
+                    <span class="tech-tag">Docker</span>
+                  </div>
+                  <div class="project-buttons">
+                    <a href="#" class="btn btn-primary">
+                      <i class="fas fa-external-link-alt"></i>
+                      Live Demo
+                    </a>
+                    <a href="#" class="btn btn-outline">
+                      <i class="fab fa-github"></i>
+                      View Code
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="project-card">
+                <div class="project-image">
+                  <img
+                    src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=300&fit=crop"
+                    alt="Task Management App"
+                  />
+                </div>
+                <div class="project-content">
+                  <div class="project-header">
+                    <h4>Task Management App</h4>
+                    <div class="project-links">
+                      <a href="#" class="project-link"
+                        ><i class="fab fa-github"></i
+                      ></a>
+                      <a href="#" class="project-link"
+                        ><i class="fas fa-external-link-alt"></i
+                      ></a>
+                    </div>
+                  </div>
+                  <p>
+                    A collaborative project management tool with real-time
+                    updates, file sharing, and team communication features.
+                    Built using modern web technologies.
+                  </p>
+                  <div class="tech-tags">
+                    <span class="tech-tag">Next.js</span>
+                    <span class="tech-tag">TypeScript</span>
+                    <span class="tech-tag">Prisma</span>
+                    <span class="tech-tag">Socket.io</span>
+                    <span class="tech-tag">Tailwind CSS</span>
+                  </div>
+                  <div class="project-buttons">
+                    <a href="#" class="btn btn-primary">
+                      <i class="fas fa-external-link-alt"></i>
+                      Live Demo
+                    </a>
+                    <a href="#" class="btn btn-outline">
+                      <i class="fab fa-github"></i>
+                      View Code
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="project-card">
+                <div class="project-image">
+                  <img
+                    src="https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=300&fit=crop"
+                    alt="Weather Analytics Dashboard"
+                  />
+                </div>
+                <div class="project-content">
+                  <div class="project-header">
+                    <h4>Weather Analytics Dashboard</h4>
+                    <div class="project-links">
+                      <a href="#" class="project-link"
+                        ><i class="fab fa-github"></i
+                      ></a>
+                      <a href="#" class="project-link"
+                        ><i class="fas fa-external-link-alt"></i
+                      ></a>
+                    </div>
+                  </div>
+                  <p>
+                    A data visualization dashboard that displays weather
+                    patterns and analytics using third-party APIs. Features
+                    interactive charts and historical data analysis.
+                  </p>
+                  <div class="tech-tags">
+                    <span class="tech-tag">Vue.js</span>
+                    <span class="tech-tag">D3.js</span>
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">FastAPI</span>
+                    <span class="tech-tag">MongoDB</span>
+                  </div>
+                  <div class="project-buttons">
+                    <a href="#" class="btn btn-primary">
+                      <i class="fas fa-external-link-alt"></i>
+                      Live Demo
+                    </a>
+                    <a href="#" class="btn btn-outline">
+                      <i class="fab fa-github"></i>
+                      View Code
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="project-card">
+                <div class="project-image">
+                  <img
+                    src="https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=600&h=300&fit=crop"
+                    alt="AI Chat Assistant"
+                  />
+                </div>
+                <div class="project-content">
+                  <div class="project-header">
+                    <h4>AI Chat Assistant</h4>
+                    <div class="project-links">
+                      <a href="#" class="project-link"
+                        ><i class="fab fa-github"></i
+                      ></a>
+                      <a href="#" class="project-link"
+                        ><i class="fas fa-external-link-alt"></i
+                      ></a>
+                    </div>
+                  </div>
+                  <p>
+                    An intelligent chatbot application powered by machine
+                    learning. Includes natural language processing and
+                    context-aware responses.
+                  </p>
+                  <div class="tech-tags">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">TensorFlow</span>
+                    <span class="tech-tag">Flask</span>
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">WebSocket</span>
+                  </div>
+                  <div class="project-buttons">
+                    <a href="#" class="btn btn-primary">
+                      <i class="fas fa-external-link-alt"></i>
+                      Live Demo
+                    </a>
+                    <a href="#" class="btn btn-outline">
+                      <i class="fab fa-github"></i>
+                      View Code
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="project-card">
+                <div class="project-image">
+                  <img
+                    src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=300&fit=crop"
+                    alt="Social Media Analytics"
+                  />
+                </div>
+                <div class="project-content">
+                  <div class="project-header">
+                    <h4>Social Media Analytics</h4>
+                    <div class="project-links">
+                      <a href="#" class="project-link"
+                        ><i class="fab fa-github"></i
+                      ></a>
+                      <a href="#" class="project-link"
+                        ><i class="fas fa-external-link-alt"></i
+                      ></a>
+                    </div>
+                  </div>
+                  <p>
+                    A comprehensive analytics platform for social media
+                    management with real-time monitoring, sentiment analysis,
+                    and automated reporting.
+                  </p>
+                  <div class="tech-tags">
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">Express</span>
+                    <span class="tech-tag">Redis</span>
+                    <span class="tech-tag">Chart.js</span>
+                    <span class="tech-tag">AWS</span>
+                  </div>
+                  <div class="project-buttons">
+                    <a href="#" class="btn btn-primary">
+                      <i class="fas fa-external-link-alt"></i>
+                      Live Demo
+                    </a>
+                    <a href="#" class="btn btn-outline">
+                      <i class="fab fa-github"></i>
+                      View Code
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="project-card">
+                <div class="project-image">
+                  <img
+                    src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=600&h=300&fit=crop"
+                    alt="Blockchain Voting System"
+                  />
+                </div>
+                <div class="project-content">
+                  <div class="project-header">
+                    <h4>Blockchain Voting System</h4>
+                    <div class="project-links">
+                      <a href="#" class="project-link"
+                        ><i class="fab fa-github"></i
+                      ></a>
+                      <a href="#" class="project-link"
+                        ><i class="fas fa-external-link-alt"></i
+                      ></a>
+                    </div>
+                  </div>
+                  <p>
+                    A secure and transparent voting system built on blockchain
+                    technology. Ensures vote integrity and provides real-time
+                    election results.
+                  </p>
+                  <div class="tech-tags">
+                    <span class="tech-tag">Solidity</span>
+                    <span class="tech-tag">Web3.js</span>
+                    <span class="tech-tag">React</span>
+                    <span class="tech-tag">Ethereum</span>
+                    <span class="tech-tag">IPFS</span>
+                  </div>
+                  <div class="project-buttons">
+                    <a href="#" class="btn btn-primary">
+                      <i class="fas fa-external-link-alt"></i>
+                      Live Demo
+                    </a>
+                    <a href="#" class="btn btn-outline">
+                      <i class="fab fa-github"></i>
+                      View Code
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact">
+        <div class="container">
+          <div class="section-content">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-description">
+              I'm always open to discussing new opportunities, collaborations,
+              or just having a chat about technology.
+            </p>
+
+            <div class="contact-grid">
+              <div class="contact-info">
+                <h4>Contact Information</h4>
+                <div class="contact-details">
+                  <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                      <p class="contact-label">Email</p>
+                      <p>meshackmagara75@email.com</p>
+                    </div>
+                  </div>
+
+                  <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                      <p class="contact-label">Phone</p>
+                      <p>+254 743821121</p>
+                    </div>
+                  </div>
+
+                  <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                      <p class="contact-label">location</p>
+                      <p>NAKURU,KISII,NAIROBI,  KENYA</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="social-section">
+                  <p>Follow me on social media:</p>
+                  <div class="social-buttons">
+                    <a href="#" class="social-btn"
+                      ><i class="fab fa-github"></i
+                    ></a>
+                    <a href="#" class="social-btn"
+                      ><i class="fab fa-linkedin"></i
+                    ></a>
+                    <a href="#" class="social-btn"
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+                  </div>
+                </div>
+
+                <div class="availability">
+                  <p>
+                    Available for freelance projects, full-time opportunities,
+                    and interesting collaborations.
+                  </p>
+                </div>
+              </div>
+
+              <div class="contact-form-container">
+                <h4>Send a Message</h4>
+                <form class="contact-form" id="contactForm">
+                  <div class="form-row">
+                    <div class="form-group">
+                      <label for="name">Name</label>
+                      <input type="text" id="name" name="name" required />
+                    </div>
+                    <div class="form-group">
+                      <label for="email">Email</label>
+                      <input type="email" id="email" name="email" required />
+                    </div>
+                  </div>
+
+                  <div class="form-row">
+                    <div class="form-group">
+                      <label for="type">Inquiry Type</label>
+                      <select id="type" name="type">
+                        <option value="">Select type</option>
+                        <option value="job">Job Opportunity</option>
+                        <option value="project">Project Collaboration</option>
+                        <option value="freelance">Freelance Work</option>
+                        <option value="consulting">Consulting</option>
+                        <option value="other">Other</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="subject">Subject</label>
+                      <input type="text" id="subject" name="subject" required />
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea
+                      id="message"
+                      name="message"
+                      rows="5"
+                      required
+                    ></textarea>
+                  </div>
+
+                  <button type="submit" class="btn btn-primary full-width">
+                    <i class="fas fa-paper-plane"></i>
+                    Send Message
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-grid">
+            <div class="footer-section">
+              <h3>Mesh Developer</h3>
+              <p>
+                Passionate full-stack developer creating innovative solutions
+                with modern technologies.
+              </p>
+              <div class="footer-social">
+                <a href="#" class="footer-social-link"
+                  ><i class="fab fa-github"></i
+                ></a>
+                <a href="#" class="footer-social-link"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+                <a href="#" class="footer-social-link"
+                  ><i class="fas fa-envelope"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="footer-section">
+              <h4>Quick Links</h4>
+              <ul class="footer-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-section">
+              <h4>Let's Connect</h4>
+              <p>Ready to discuss your next project or opportunity?</p>
+              <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+          </div>
+
+          <div class="footer-bottom">
+            <div class="footer-copyright">
+              <span
+                >Made with <i class="fas fa-heart"></i> by Mesh Developer</span
+              >
+            </div>
+            <div class="footer-year">
+              <span>© 2025 Mesh Developer. All rights reserved.</span>
+            </div>
+          </div>
+
+          <div class="back-to-top">
+            <button onclick="scrollToTop()">Back to top ↑</button>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./styles/portfolio.js"></script>
+  </body>
+</html>
